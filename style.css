@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("images/amazon_logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* Address */
+.add-first {
+    color:#cccccc ;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec {
+   font-size: 1rem;
+   margin-left: 3px;
+}
+.add-icon {
+    display: flex;
+}
+
+/* Search */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    height: 40px;
+    width: 620px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.serch-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 174, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+/* Account / Orders */
+span {
+    font-size: 0.7rem;
+}
+.nav-sec {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Cart */
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Panel */
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* Hero */
+.hero-section {
+    background-image: url("images/hero_image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
+/* Shop Section */
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6; 
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px; 
+}
+.box-img {
+    height: 225px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p {
+    color: #007185;
+    text-decoration: none;
+}
+
+/* other sections: outerdiv, seller-section, fresh-img, books, movies, sports, baby, beauty etc. */
+.outerdiv {
+    height: 152px;
+    width: 262px;
+    display: flex;
+    font-size: 0.85rem;
+}
+.outerdiv p {
+    text-decoration: none;
+    color: #37475a;
+}
+.innerdiv {
+    height: 100px;
+    width: 126px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/* (Keeping all your individual section classes unchanged for now) */
+
+/* Containers */
+.container {
+   height: 150px;
+   width: 100%;
+   background-color: white;
+   margin-top: 10px;
+}
+.container1 {
+   height: 126px;
+   width: 98%;
+   border: 1px solid #cccccc;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   margin-top: 10px;
+}
+.whole {
+   height: 68px;
+   width: 900px;
+   text-align: center;
+   padding-right: 20px;
+}
+.recommendation {
+   height: 15px;
+   width: 860px;
+   margin-left: 20%;
+}
+.recommendation p {
+   font-weight: 400;
+   font-size: 0.85rem;
+   margin-top: 20px;
+}
+.button {
+   height: 28px;
+   width: 230px;
+   text-align: center;
+   margin-left: 55%;
+   margin-top: 0.85%;
+}
+.btn {
+   font-size: 13px;
+   color: black;
+   background-color: rgba(255, 174, 17, 0.979);
+   border: 2px solid rgba(255, 174, 17, 0.979);
+   height: 28px;
+   width: 250px;
+   text-align: center;
+   border-radius: 4px;
+}
+.text {
+   height: 15px;
+   width: 860px;
+   margin-left: 20%;
+   margin-top: 0.85%;
+}
+.customer p {
+   font-size: 0.75rem;
+   font-weight: 400;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+}
+.foot-pan1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem ;
+}
+.foot-pan2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul {
+    margin-top: 20px;
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+}
+.foot-pan3 {
+    background-color: #222f3d;
+    color: white;
+    height: 110px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.foot-pan4 {
+   height: auto;
+   width: 100%;
+   background-color: #131a22;
+   padding: 30px 0px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.foot-pan5 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.pages {
+    padding-top: 25px;
+}
+.copyright {
+    padding: 5px;
+}
+
+/* ========== RESPONSIVE MEDIA QUERIES ========== */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .nav-search {
+    width: 80%;
+  }
+
+  .panel-ops {
+    width: 90%;
+    font-size: 0.75rem;
+  }
+
+  .box {
+    width: 45%;
+  }
+
+  .hero-section {
+    height: 250px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .nav-logo {
+    margin-bottom: 10px;
+  }
+
+  .nav-search {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .panel {
+    flex-wrap: wrap;
+    font-size: 0.7rem;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .panel-ops {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .hero-section {
+    height: 200px;
+  }
+
+  .box {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .seller-section,
+  .container,
+  .container1 {
+    width: 100%;
+  }
+
+  footer ul {
+    text-align: center;
+  }
+
+  .foot-pan2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .foot-pan4 {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
