@@ -4,8 +4,6 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-
-/* Navbar */
 .navbar {
     height: 60px;
     background-color: #0f1111;
@@ -35,8 +33,6 @@
 .border:hover {
     border: 1.5px solid white;
 }
-
-/* Address */
 .add-first {
     color:#cccccc ;
     font-size: 0.85rem;
@@ -50,7 +46,6 @@
     display: flex;
 }
 
-/* Search */
 .nav-search {
     display: flex;
     justify-content: space-evenly;
@@ -89,7 +84,6 @@
     border: 2px solid orange;
 }
 
-/* Account / Orders */
 span {
     font-size: 0.7rem;
 }
@@ -97,8 +91,6 @@ span {
     font-size: 0.85rem;
     font-weight: 700;
 }
-
-/* Cart */
 .nav-cart i {
     font-size: 30px;
 }
@@ -107,7 +99,6 @@ span {
     font-weight: 700;
 }
 
-/* Panel */
 .panel {
     height: 40px;
     background-color: #222f3d;
@@ -130,7 +121,6 @@ span {
     font-weight: 700;
 }
 
-/* Hero */
 .hero-section {
     background-image: url("images/hero_image.jpg");
     background-size: cover;
@@ -138,7 +128,6 @@ span {
     height: 350px;
 }
 
-/* Shop Section */
 .shop-section {
     display: flex;
     flex-wrap: wrap;
@@ -167,8 +156,6 @@ span {
     color: #007185;
     text-decoration: none;
 }
-
-/* other sections: outerdiv, seller-section, fresh-img, books, movies, sports, baby, beauty etc. */
 .outerdiv {
     height: 152px;
     width: 262px;
@@ -189,9 +176,6 @@ span {
     margin-top: 10px;
 }
 
-/* (Keeping all your individual section classes unchanged for now) */
-
-/* Containers */
 .container {
    height: 150px;
    width: 100%;
@@ -312,9 +296,6 @@ ul a {
     padding: 5px;
 }
 
-/* ========== RESPONSIVE MEDIA QUERIES ========== */
-
-/* Tablet */
 @media (max-width: 992px) {
   .nav-search {
     width: 80%;
@@ -334,7 +315,6 @@ ul a {
   }
 }
 
-/* Mobile */
 @media (max-width: 600px) {
   .navbar {
     flex-direction: column;
@@ -397,3 +377,4 @@ ul a {
     gap: 15px;
   }
 }
+
